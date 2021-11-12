@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "596665088088",
+    "project_id": "my-beauty-advisor-2aebd",
+    "storage_bucket": "my-beauty-advisor-2aebd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596665088088:android:8a1b539bac5b7547ce322d",
+        "android_client_info": {
+          "package_name": "com.cosmecode.mba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596665088088-cosemmsagmeggeq3d1a125tppfdhe0e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cosmecode.mba",
+            "certificate_hash": "cb4715427fce58576ee03a64bb057a1a3d65e979"
+          }
+        },
+        {
+          "client_id": "596665088088-vts0souvtnuak5aeuckcsp5drb9jfp1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZJ1WK0OVpnWxE6QUf5o3QK0tNFWel7rY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596665088088-vts0souvtnuak5aeuckcsp5drb9jfp1e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "596665088088-50al6316oak6n7ebbqbcu6otq3g8pq4t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cosmecode.mba"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

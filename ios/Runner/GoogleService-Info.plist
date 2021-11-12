@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>596665088088-n2g5ar58pfa2e1fjnjkgkklhtlcqb02j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.596665088088-n2g5ar58pfa2e1fjnjkgkklhtlcqb02j</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>596665088088-7nsnb86dn0jq2nmv6icj64sq726vidqb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDAel1AdZmj43riE0J84WU9_UzlHXzrHw0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>596665088088</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cosmecode.myba</string>
+	<key>PROJECT_ID</key>
+	<string>my-beauty-advisor-2aebd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-beauty-advisor-2aebd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:596665088088:ios:3920b0afef8aa0f4ce322d</string>
+</dict>
+</plist>
