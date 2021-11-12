@@ -200,7 +200,7 @@ class _UserInfosFormState extends State<UserInfosForm> {
               status = LoadingState.timeout;
             });
           }
-        );;
+        );
       }
     }
     //////////////////////////////////////////////////////////////////////////////////////
@@ -268,9 +268,10 @@ class _UserInfosFormState extends State<UserInfosForm> {
   //// Name Form       ////////////////////////////////////////////////////////////////////////////////////
   // Onchange Function
   void      _changeName(String value) {
-    if (isName(value) && errors['name'] == AppLocalizations.of(context).translate('error_name-invalid'))
-      _removeNameError();
-    else if (value.isNotEmpty && errors['name'] == AppLocalizations.of(context).translate('error_name-null'))
+    // if (isName(value) && errors['name'] == AppLocalizations.of(context).translate('error_name-invalid'))
+    //   _removeNameError();
+    // else
+    if (value.isNotEmpty && errors['name'] == AppLocalizations.of(context).translate('error_name-null'))
       _removeNameError();
   }
 
@@ -280,10 +281,10 @@ class _UserInfosFormState extends State<UserInfosForm> {
       _addNameError(AppLocalizations.of(context).translate('error_name-null'));
       return "";
     }
-    if (!isName(value)) {
-      _addNameError(AppLocalizations.of(context).translate('error_name-invalid'));
-      return "";
-    }
+    // if (!isName(value)) {
+    //   _addNameError(AppLocalizations.of(context).translate('error_name-invalid'));
+    //   return "";
+    // }
     return null;
   }
 

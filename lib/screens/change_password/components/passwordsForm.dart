@@ -236,9 +236,10 @@ class _PasswordsFormState extends State<PasswordsForm> {
   //// New Password Form       //////////////////////////////////////////////////////////////////////////////////////////////
   // Onchange Function
   void      _changeNewPassword(value) {
-    if (isStrongPassword(value) && errors['new_password'] == AppLocalizations.of(context).translate('error_password-weak'))
-      _removeNewPasswordError();
-    else if (value.length >= 8 && errors['new_password'] == AppLocalizations.of(context).translate('error_password-short'))
+    // if (isStrongPassword(value) && errors['new_password'] == AppLocalizations.of(context).translate('error_password-weak'))
+    //   _removeNewPasswordError();
+    // else
+     if (value.length >= 6 && errors['new_password'] == AppLocalizations.of(context).translate('error_password-short'))
       _removeNewPasswordError();
     else if (value.isNotEmpty && errors['new_password'] == AppLocalizations.of(context).translate('error_password-null'))
       _removeNewPasswordError();
@@ -251,14 +252,14 @@ class _PasswordsFormState extends State<PasswordsForm> {
       _addNewPasswordError(AppLocalizations.of(context).translate('error_password-null'));
       return "";
     }
-    if (value.length < 8) {
+    if (value.length <= 6) {
       _addNewPasswordError(AppLocalizations.of(context).translate('error_password-short'));
       return "";
     }
-    if (!isStrongPassword(value)) {
-      _addNewPasswordError(AppLocalizations.of(context).translate('error_password-weak'));
-      return "";
-    }
+    // if (!isStrongPassword(value)) {
+    //   _addNewPasswordError(AppLocalizations.of(context).translate('error_password-weak'));
+    //   return "";
+    // }
     return null;
   }
 
